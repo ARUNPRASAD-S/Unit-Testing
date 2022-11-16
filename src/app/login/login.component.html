@@ -1,0 +1,5 @@
+<form [formGroup]="formLogin">
+UserName:<input type="text" formControlName="username"><br>
+Password:<input type="password" formControlName="password"><br>
+<button (click)="onLoginClick(formLogin)">Login</button>
+</form>
